@@ -11,14 +11,17 @@ a {
 li {
   list-style-type: none;
 }
-img{
+
+img {
   display: block;
 }
+
 /*header*/
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container{
+
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -53,12 +56,12 @@ img{
 }
 
 /*NAVIGATION STYLE*/
-.navigation{
+.navigation {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
-.list-menu-header{
+.list-menu-header {
   display: flex;
   gap: 40px;
 }
@@ -80,10 +83,11 @@ img{
 
 .contacts {
   font-style: normal;
-  
+
 
 }
-.list-contacts{
+
+.list-contacts {
   display: flex;
   gap: 40px;
 }
@@ -115,8 +119,8 @@ img{
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px; 
-  
+  max-width: 496px;
+
 }
 
 .hero-button {
@@ -135,7 +139,7 @@ img{
   border-radius: 4px;
 
 
-  
+
 }
 
 .hero-button:hover,
@@ -145,20 +149,23 @@ img{
 
 /*SECTION POSITIVE QUALITIES*/
 
-.section-two{
+.section-two {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden{
+
+.visually-hidden {
   visibility: hidden;
 
 }
-.list-section-two{
+
+.list-section-two {
   display: flex;
   gap: 24px;
 
 }
-.list-element-section-two{
+
+.list-element-section-two {
   width: calc((100% - 72px) / 4);
 }
 
@@ -207,19 +214,49 @@ img{
   background-color: #F4F4FD;
   padding: 120px 0;
 }
-.list-our{
+
+.list-our {
   display: flex;
   gap: 24px;
 }
 
 .list-our-team {
   background-color: #FFFFFF;
-  width: calc((100% - 72px) / 4); 
-  border-radius: 0px 0px 4px 4px; 
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.container-our{
+
+.container-our {
   padding: 32px 0;
 }
+
+/*portfolio section*/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list-element-portfolio {
+  width: calc((100% - 48px) / 3);
+}
+.container-portfolio{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+}
+
+
+
+
+
+/*footer*/
 
 .happy-end {
   background-color: #2e2f42;
